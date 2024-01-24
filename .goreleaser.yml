@@ -45,12 +45,6 @@ archives:
     {{ end }}
   builds:
   - trivy-webhook
-  replacements:
-    amd64: 64bit
-    arm: ARM
-    arm64: ARM64
-    darwin: macOS
-    linux: Linux
 checksum:
   name_template: "checksums.txt"
 snapshot:
